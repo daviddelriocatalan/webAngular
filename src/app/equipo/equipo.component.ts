@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EquipoComponent implements OnInit {
 
-  persona1 : boolean = true;
+  persona1 : boolean = false;
   persona2 : boolean = false;
   persona3 : boolean = false;
   

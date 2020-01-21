@@ -10,6 +10,8 @@ import { BarraNavegadoraComponent } from './barra-navegadora/barra-navegadora.co
 import { HomeComponent } from './home/home.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { EquipoComponent } from './equipo/equipo.component';
+import { FooterComponent } from './footer/footer.component';
+import { Proyecto1Component } from './proyecto1/proyecto1.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { EquipoComponent } from './equipo/equipo.component';
     BarraNavegadoraComponent,
     HomeComponent,
     ProyectosComponent,
-    EquipoComponent
+    EquipoComponent,
+    FooterComponent,
+    Proyecto1Component
   ],
   imports: [
     BrowserModule,

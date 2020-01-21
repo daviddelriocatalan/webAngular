@@ -5,13 +5,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HomeComponent } from './home/home.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { EquipoComponent } from './equipo/equipo.component';
+import {Proyecto1Component} from './proyecto1/proyecto1.component';
 
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  /* { path: '**', component: HomeComponent }, */ //PREGUNTAR A SALVA PORQUE NO VAN LOS LINKS SI LO PONGO
   { path: 'equipo', component: EquipoComponent },
-  {path: 'proyectos', component: ProyectosComponent}
+  {path: 'proyectos', component: ProyectosComponent},
+  {path: 'proyecto1', component: Proyecto1Component}
 ];
 
 @NgModule({
