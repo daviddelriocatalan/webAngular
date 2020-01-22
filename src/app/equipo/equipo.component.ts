@@ -10,6 +10,7 @@ export class EquipoComponent implements OnInit {
   persona1 : boolean = false;
   persona2 : boolean = false;
   persona3 : boolean = false;
+  colaborador1 : boolean = false;
   
   mostrarPersona1(){
     if (this.persona1) {
@@ -38,6 +39,14 @@ export class EquipoComponent implements OnInit {
       this.persona3 = true;
       this.persona1 = false;
       this.persona2 = false;
+    }
+  }
+
+  mostrarColaborador1(){
+    if (this.colaborador1) {
+      this.colaborador1 = false;
+    } else {
+      this.colaborador1 = true;
     }
   }
 
